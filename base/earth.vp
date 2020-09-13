@@ -1,0 +1,24 @@
+//#version 140
+uniform mat4 rglModelview;
+uniform mat4 rglModelviewInverse;
+uniform mat4 rglProjection;
+uniform mat4 rglTextureMatrix0;
+uniform vec3 SunDir;
+in vec4 Vertex;
+in vec4 Color;
+in vec4 TexCoord0;
+out vec4 COL0;
+out vec4 TEXCOORD0;
+out vec3 SUNDIR;
+out vec3 VERTPOS;
+out vec3 EYE;
+void main() {
+    gl_Position = rglProjection * rglModelview * Vertex;
+    VERTPOS = Vertex.xyz;
+    vec4 e = rglModelviewInverse * vec4( 0, 0, 0, 1 );
+    EYE = e.xyz / e.w;
+    COL0 = Color;
+    TEXCOORD0 = Vertex;
+    SUNDIR = SunDir;
+}
+

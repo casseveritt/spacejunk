@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'spacejunk' target in the 'spacejunk' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

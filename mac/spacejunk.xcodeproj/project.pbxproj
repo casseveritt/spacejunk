@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* spacejunkAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* spacejunkAppDelegate.mm */; };
+		43085426148B0F3400AE231A /* RGLOpenGLContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43085425148B0F3400AE231A /* RGLOpenGLContext.mm */; };
+		4316E5F41515461C001961E1 /* earth.fp in Resources */ = {isa = PBXBuildFile; fileRef = 4316E5F21515461C001961E1 /* earth.fp */; };
+		4316E5F51515461C001961E1 /* earth.vp in Resources */ = {isa = PBXBuildFile; fileRef = 4316E5F31515461C001961E1 /* earth.vp */; };
+		431D3C3A15C9C16C009DD04F /* libRegal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 431D3C3815C9C13A009DD04F /* libRegal.a */; };
+		4344FC911332A8BA006F07E8 /* nv.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4344FC901332A8BA006F07E8 /* nv.icns */; };
+		4388193015E17F7E00E3BCFB /* libr3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4388192F15E17F6B00E3BCFB /* libr3.a */; };
+		439119D114DB182500547202 /* constellations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119A914DB182400547202 /* constellations.cpp */; };
+		439119D214DB182500547202 /* drawstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119AB14DB182400547202 /* drawstring.cpp */; };
+		439119D314DB182500547202 /* localize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119AD14DB182400547202 /* localize.cpp */; };
+		439119D514DB182500547202 /* ntp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119B114DB182400547202 /* ntp.cpp */; };
+		439119D614DB182500547202 /* prediction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119B314DB182400547202 /* prediction.cpp */; };
+		439119D714DB182500547202 /* render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119B514DB182400547202 /* render.cpp */; };
+		439119D814DB182500547202 /* satellite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119B714DB182400547202 /* satellite.cpp */; };
+		439119D914DB182500547202 /* sgp4ext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119BA14DB182400547202 /* sgp4ext.cpp */; };
+		439119DA14DB182500547202 /* sgp4io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119BC14DB182400547202 /* sgp4io.cpp */; };
+		439119DB14DB182500547202 /* sgp4unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119BE14DB182400547202 /* sgp4unit.cpp */; };
+		439119DC14DB182500547202 /* solarsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119C014DB182400547202 /* solarsystem.cpp */; };
+		439119DD14DB182500547202 /* spacetime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119C214DB182400547202 /* spacetime.cpp */; };
+		439119DE14DB182500547202 /* star3map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119C414DB182400547202 /* star3map.cpp */; };
+		439119DF14DB182500547202 /* starlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119C614DB182400547202 /* starlist.cpp */; };
+		439119E014DB182500547202 /* status.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119C814DB182400547202 /* status.cpp */; };
+		439119E114DB182500547202 /* transient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119CA14DB182400547202 /* transient.cpp */; };
+		439119E214DB182500547202 /* ujson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439119CC14DB182400547202 /* ujson.cpp */; };
+		43946F67154043F100916045 /* earth-lite.fp in Resources */ = {isa = PBXBuildFile; fileRef = 43946F65154043F100916045 /* earth-lite.fp */; };
+		43946F68154043F100916045 /* earth-lite.vp in Resources */ = {isa = PBXBuildFile; fileRef = 43946F66154043F100916045 /* earth-lite.vp */; };
+		439C067A15E15499007ADAA1 /* menubar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439C067715E15499007ADAA1 /* menubar.cpp */; };
+		439C067D15E15612007ADAA1 /* button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 439C067B15E15612007ADAA1 /* button.cpp */; };
+		43AE518515CED4BD00E1457D /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 43AE518415CED4BD00E1457D /* config.json */; };
+		43C371BA133086FB004C571E /* render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43C371B9133086FB004C571E /* render.cpp */; };
+		43D158C914DB193400F93D70 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43D158C814DB193400F93D70 /* app.cpp */; };
+		43E244C6133066AF0040E20D /* RegalView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43E244C5133066AF0040E20D /* RegalView.mm */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		431D3C3715C9C13A009DD04F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431D3C3015C9C139009DD04F /* Regal.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 43A6C1C615C48CD90063667E;
+			remoteInfo = Regal;
+		};
+		4388192E15E17F6B00E3BCFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4388192715E17F6B00E3BCFB /* r3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4388179615E17B5700E3BCFB;
+			remoteInfo = r3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* spacejunkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spacejunkAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* spacejunkAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = spacejunkAppDelegate.mm; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* spacejunk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spacejunk_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		43085424148B0F3400AE231A /* RGLOpenGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGLOpenGLContext.h; sourceTree = "<group>"; };
+		43085425148B0F3400AE231A /* RGLOpenGLContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RGLOpenGLContext.mm; sourceTree = "<group>"; };
+		4316E5F21515461C001961E1 /* earth.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = earth.fp; path = ../base/earth.fp; sourceTree = "<group>"; };
+		4316E5F31515461C001961E1 /* earth.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = earth.vp; path = ../base/earth.vp; sourceTree = "<group>"; };
+		431D3C3015C9C139009DD04F /* Regal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Regal.xcodeproj; path = ../../../../../src/regal/build/mac/Regal/Regal.xcodeproj; sourceTree = "<group>"; };
+		4344FC901332A8BA006F07E8 /* nv.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = nv.icns; sourceTree = "<group>"; };
+		4388192715E17F6B00E3BCFB /* r3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = r3.xcodeproj; path = ../../../build/mac/r3/r3.xcodeproj; sourceTree = "<group>"; };
+		439119A914DB182400547202 /* constellations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = constellations.cpp; path = ../code/constellations.cpp; sourceTree = "<group>"; };
+		439119AA14DB182400547202 /* constellations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constellations.h; path = ../code/constellations.h; sourceTree = "<group>"; };
+		439119AB14DB182400547202 /* drawstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawstring.cpp; path = ../code/drawstring.cpp; sourceTree = "<group>"; };
+		439119AC14DB182400547202 /* drawstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawstring.h; path = ../code/drawstring.h; sourceTree = "<group>"; };
+		439119AD14DB182400547202 /* localize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = localize.cpp; path = ../code/localize.cpp; sourceTree = "<group>"; };
+		439119AE14DB182400547202 /* localize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = localize.h; path = ../code/localize.h; sourceTree = "<group>"; };
+		439119B114DB182400547202 /* ntp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ntp.cpp; path = ../code/ntp.cpp; sourceTree = "<group>"; };
+		439119B214DB182400547202 /* ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ntp.h; path = ../code/ntp.h; sourceTree = "<group>"; };
+		439119B314DB182400547202 /* prediction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = prediction.cpp; path = ../code/prediction.cpp; sourceTree = "<group>"; };
+		439119B414DB182400547202 /* prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prediction.h; path = ../code/prediction.h; sourceTree = "<group>"; };
+		439119B514DB182400547202 /* render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = render.cpp; path = ../code/render.cpp; sourceTree = "<group>"; };
+		439119B614DB182400547202 /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = render.h; path = ../code/render.h; sourceTree = "<group>"; };
+		439119B714DB182400547202 /* satellite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = satellite.cpp; path = ../code/satellite.cpp; sourceTree = "<group>"; };
+		439119B814DB182400547202 /* satellite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = satellite.h; path = ../code/satellite.h; sourceTree = "<group>"; };
+		439119BA14DB182400547202 /* sgp4ext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sgp4ext.cpp; sourceTree = "<group>"; };
+		439119BB14DB182400547202 /* sgp4ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sgp4ext.h; sourceTree = "<group>"; };
+		439119BC14DB182400547202 /* sgp4io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sgp4io.cpp; sourceTree = "<group>"; };
+		439119BD14DB182400547202 /* sgp4io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sgp4io.h; sourceTree = "<group>"; };
+		439119BE14DB182400547202 /* sgp4unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sgp4unit.cpp; sourceTree = "<group>"; };
+		439119BF14DB182400547202 /* sgp4unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sgp4unit.h; sourceTree = "<group>"; };
+		439119C014DB182400547202 /* solarsystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = solarsystem.cpp; path = ../code/solarsystem.cpp; sourceTree = "<group>"; };
+		439119C114DB182400547202 /* solarsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = solarsystem.h; path = ../code/solarsystem.h; sourceTree = "<group>"; };
+		439119C214DB182400547202 /* spacetime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spacetime.cpp; path = ../code/spacetime.cpp; sourceTree = "<group>"; };
+		439119C314DB182400547202 /* spacetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spacetime.h; path = ../code/spacetime.h; sourceTree = "<group>"; };
+		439119C414DB182400547202 /* star3map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = star3map.cpp; path = ../code/star3map.cpp; sourceTree = "<group>"; };
+		439119C514DB182400547202 /* star3map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = star3map.h; path = ../code/star3map.h; sourceTree = "<group>"; };
+		439119C614DB182400547202 /* starlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = starlist.cpp; path = ../code/starlist.cpp; sourceTree = "<group>"; };
+		439119C714DB182400547202 /* starlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = starlist.h; path = ../code/starlist.h; sourceTree = "<group>"; };
+		439119C814DB182400547202 /* status.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = status.cpp; path = ../code/status.cpp; sourceTree = "<group>"; };
+		439119C914DB182400547202 /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = status.h; path = ../code/status.h; sourceTree = "<group>"; };
+		439119CA14DB182400547202 /* transient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = transient.cpp; path = ../code/transient.cpp; sourceTree = "<group>"; };
+		439119CB14DB182400547202 /* transient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = transient.h; path = ../code/transient.h; sourceTree = "<group>"; };
+		439119CC14DB182400547202 /* ujson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ujson.cpp; path = ../code/ujson.cpp; sourceTree = "<group>"; };
+		439119CD14DB182400547202 /* ujson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ujson.h; path = ../code/ujson.h; sourceTree = "<group>"; };
+		43946F65154043F100916045 /* earth-lite.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "earth-lite.fp"; path = "../base/earth-lite.fp"; sourceTree = "<group>"; };
+		43946F66154043F100916045 /* earth-lite.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "earth-lite.vp"; path = "../base/earth-lite.vp"; sourceTree = "<group>"; };
+		439C067715E15499007ADAA1 /* menubar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menubar.cpp; path = ../code/ui/menubar.cpp; sourceTree = "<group>"; };
+		439C067815E15499007ADAA1 /* menubar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menubar.h; path = ../code/ui/menubar.h; sourceTree = "<group>"; };
+		439C067B15E15612007ADAA1 /* button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = button.cpp; path = ../code/ui/button.cpp; sourceTree = "<group>"; };
+		439C067C15E15612007ADAA1 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = button.h; path = ../code/ui/button.h; sourceTree = "<group>"; };
+		43AE518415CED4BD00E1457D /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../base/config.json; sourceTree = "<group>"; };
+		43C371B8133086FB004C571E /* render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render.h; sourceTree = "<group>"; };
+		43C371B9133086FB004C571E /* render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = render.cpp; sourceTree = "<group>"; };
+		43D158C814DB193400F93D70 /* app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = app.cpp; sourceTree = "<group>"; };
+		43E244C4133066AF0040E20D /* RegalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegalView.h; sourceTree = "<group>"; };
+		43E244C5133066AF0040E20D /* RegalView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RegalView.mm; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* spacejunk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "spacejunk-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* spacejunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spacejunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431D3C3A15C9C16C009DD04F /* libRegal.a in Frameworks */,
+				4388193015E17F7E00E3BCFB /* libr3.a in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* spacejunk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* spacejunk */ = {
+			isa = PBXGroup;
+			children = (
+				4388192715E17F6B00E3BCFB /* r3.xcodeproj */,
+				431D3C3015C9C139009DD04F /* Regal.xcodeproj */,
+				4316E5F0151545D1001961E1 /* shaders */,
+				29B97315FDCFA39411CA2CEA /* code */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = spacejunk;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* code */ = {
+			isa = PBXGroup;
+			children = (
+				439119A614DB17CA00547202 /* app */,
+				439119A514DB17AD00547202 /* mac */,
+			);
+			name = code;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43AE518415CED4BD00E1457D /* config.json */,
+				4344FC901332A8BA006F07E8 /* nv.icns */,
+				8D1107310486CEB800E47090 /* spacejunk-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4316E5F0151545D1001961E1 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				43946F65154043F100916045 /* earth-lite.fp */,
+				43946F66154043F100916045 /* earth-lite.vp */,
+				4316E5F21515461C001961E1 /* earth.fp */,
+				4316E5F31515461C001961E1 /* earth.vp */,
+			);
+			name = shaders;
+			sourceTree = "<group>";
+		};
+		431D3C3115C9C139009DD04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431D3C3815C9C13A009DD04F /* libRegal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4388192815E17F6B00E3BCFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4388192F15E17F6B00E3BCFB /* libr3.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439119A514DB17AD00547202 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				43085424148B0F3400AE231A /* RGLOpenGLContext.h */,
+				43085425148B0F3400AE231A /* RGLOpenGLContext.mm */,
+				256AC3D80F4B6AC300CF3369 /* spacejunkAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* spacejunkAppDelegate.mm */,
+				43E244C4133066AF0040E20D /* RegalView.h */,
+				43E244C5133066AF0040E20D /* RegalView.mm */,
+				256AC3F00F4B6AF500CF3369 /* spacejunk_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+				43C371B8133086FB004C571E /* render.h */,
+				43C371B9133086FB004C571E /* render.cpp */,
+				43D158C814DB193400F93D70 /* app.cpp */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		439119A614DB17CA00547202 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				439119B914DB182400547202 /* sgp4 */,
+				439C067415E1546C007ADAA1 /* ui */,
+				439119A914DB182400547202 /* constellations.cpp */,
+				439119AA14DB182400547202 /* constellations.h */,
+				439119AB14DB182400547202 /* drawstring.cpp */,
+				439119AC14DB182400547202 /* drawstring.h */,
+				439119AD14DB182400547202 /* localize.cpp */,
+				439119AE14DB182400547202 /* localize.h */,
+				439119B114DB182400547202 /* ntp.cpp */,
+				439119B214DB182400547202 /* ntp.h */,
+				439119B314DB182400547202 /* prediction.cpp */,
+				439119B414DB182400547202 /* prediction.h */,
+				439119B514DB182400547202 /* render.cpp */,
+				439119B614DB182400547202 /* render.h */,
+				439119B714DB182400547202 /* satellite.cpp */,
+				439119B814DB182400547202 /* satellite.h */,
+				439119C014DB182400547202 /* solarsystem.cpp */,
+				439119C114DB182400547202 /* solarsystem.h */,
+				439119C214DB182400547202 /* spacetime.cpp */,
+				439119C314DB182400547202 /* spacetime.h */,
+				439119C414DB182400547202 /* star3map.cpp */,
+				439119C514DB182400547202 /* star3map.h */,
+				439119C614DB182400547202 /* starlist.cpp */,
+				439119C714DB182400547202 /* starlist.h */,
+				439119C814DB182400547202 /* status.cpp */,
+				439119C914DB182400547202 /* status.h */,
+				439119CA14DB182400547202 /* transient.cpp */,
+				439119CB14DB182400547202 /* transient.h */,
+				439119CC14DB182400547202 /* ujson.cpp */,
+				439119CD14DB182400547202 /* ujson.h */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		439119B914DB182400547202 /* sgp4 */ = {
+			isa = PBXGroup;
+			children = (
+				439119BA14DB182400547202 /* sgp4ext.cpp */,
+				439119BB14DB182400547202 /* sgp4ext.h */,
+				439119BC14DB182400547202 /* sgp4io.cpp */,
+				439119BD14DB182400547202 /* sgp4io.h */,
+				439119BE14DB182400547202 /* sgp4unit.cpp */,
+				439119BF14DB182400547202 /* sgp4unit.h */,
+			);
+			name = sgp4;
+			path = ../code/sgp4;
+			sourceTree = "<group>";
+		};
+		439C067415E1546C007ADAA1 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				439C067B15E15612007ADAA1 /* button.cpp */,
+				439C067C15E15612007ADAA1 /* button.h */,
+				439C067715E15499007ADAA1 /* menubar.cpp */,
+				439C067815E15499007ADAA1 /* menubar.h */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* spacejunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "spacejunk" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spacejunk;
+			productInstallPath = "$(HOME)/Applications";
+			productName = spacejunk;
+			productReference = 8D1107320486CEB800E47090 /* spacejunk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "spacejunk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* spacejunk */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4388192815E17F6B00E3BCFB /* Products */;
+					ProjectRef = 4388192715E17F6B00E3BCFB /* r3.xcodeproj */;
+				},
+				{
+					ProductGroup = 431D3C3115C9C139009DD04F /* Products */;
+					ProjectRef = 431D3C3015C9C139009DD04F /* Regal.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* spacejunk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		431D3C3815C9C13A009DD04F /* libRegal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRegal.a;
+			remoteRef = 431D3C3715C9C13A009DD04F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4388192F15E17F6B00E3BCFB /* libr3.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libr3.a;
+			remoteRef = 4388192E15E17F6B00E3BCFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4344FC911332A8BA006F07E8 /* nv.icns in Resources */,
+				4316E5F41515461C001961E1 /* earth.fp in Resources */,
+				4316E5F51515461C001961E1 /* earth.vp in Resources */,
+				43946F67154043F100916045 /* earth-lite.fp in Resources */,
+				43946F68154043F100916045 /* earth-lite.vp in Resources */,
+				43AE518515CED4BD00E1457D /* config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.mm in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* spacejunkAppDelegate.mm in Sources */,
+				43E244C6133066AF0040E20D /* RegalView.mm in Sources */,
+				43C371BA133086FB004C571E /* render.cpp in Sources */,
+				43085426148B0F3400AE231A /* RGLOpenGLContext.mm in Sources */,
+				439119D114DB182500547202 /* constellations.cpp in Sources */,
+				439119D214DB182500547202 /* drawstring.cpp in Sources */,
+				439119D314DB182500547202 /* localize.cpp in Sources */,
+				439119D514DB182500547202 /* ntp.cpp in Sources */,
+				439119D614DB182500547202 /* prediction.cpp in Sources */,
+				439119D714DB182500547202 /* render.cpp in Sources */,
+				439119D814DB182500547202 /* satellite.cpp in Sources */,
+				439119D914DB182500547202 /* sgp4ext.cpp in Sources */,
+				439119DA14DB182500547202 /* sgp4io.cpp in Sources */,
+				439119DB14DB182500547202 /* sgp4unit.cpp in Sources */,
+				439119DC14DB182500547202 /* solarsystem.cpp in Sources */,
+				439119DD14DB182500547202 /* spacetime.cpp in Sources */,
+				439119DE14DB182500547202 /* star3map.cpp in Sources */,
+				439119DF14DB182500547202 /* starlist.cpp in Sources */,
+				439119E014DB182500547202 /* status.cpp in Sources */,
+				439119E114DB182500547202 /* transient.cpp in Sources */,
+				439119E214DB182500547202 /* ujson.cpp in Sources */,
+				43D158C914DB193400F93D70 /* app.cpp in Sources */,
+				439C067A15E15499007ADAA1 /* menubar.cpp in Sources */,
+				439C067D15E15612007ADAA1 /* button.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = spacejunk_Prefix.pch;
+				INFOPLIST_FILE = "spacejunk-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = spacejunk;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = spacejunk_Prefix.pch;
+				INFOPLIST_FILE = "spacejunk-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = spacejunk;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "APP_spacejunklite=0";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../../../src/regal/include/;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../../../code ../code";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "APP_spacejunklite=0";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../../../src/regal/include/;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../../../code ../code";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "spacejunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "spacejunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

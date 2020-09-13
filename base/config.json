@@ -1,0 +1,63 @@
+{
+  "textures" : {
+    "sun"      : { "src" : "sun.jpg" },
+    "moon"     : { "src" : "moon.jpg" },
+    "mercury"  : { "src" : "mercury.jpg" },
+    "venus"    : { "src" : "venus.jpg" },
+    "mars"     : { "src" : "mars.jpg" },
+    "jupiter"  : { "src" : "jupiter.jpg" },
+    "saturn"   : { "src" : "saturn.jpg" },
+    "uranus"   : { "src" : "uranus.jpg" },
+    "neptune"  : { "src" : "neptune.jpg" },
+    "pluto"    : { "src" : "pluto.jpg" },
+
+    "earth"     : { "src" : "earthcube.jpg", "target" : "CUBE" },
+    "earthnorm" : { "src" : "earthnormcube.png", "target" : "CUBE" },
+      
+    "hemi"     : { "src" : "hemi.png" },
+    "north"    : { "src" : "n.png" },
+    "south"    : { "src" : "s.png" },
+    "east"     : { "src" : "e.png" },
+    "west"     : { "src" : "w.png" },
+    "test"     : { "src" : "test.jpg", "format" : "RGB" },
+    "daynight" : { "src" : "daynight.png", "format" : "RGB" },
+    "sat"      : { "src" : "spacestation.png" },
+    "qr"       : { "src" : "qr512.png", "format" : "RGBA" },
+
+    "nightmode": { "src" : "eye.png" },
+    "compass"  : { "src" : "crose64.png" },
+    "viewglobe" : { "src" : "globe64.png" },
+    "viewstars" : { "src" : "viewstars64.png" },
+    "arrows"   : { "src" : "arrows.png" },
+    "gps"      : { "src" : "satnav.png" },
+    "qricon"   : { "src" : "qr64.png" },
+    "brightest": { "src" : "brightest.png" },
+    "heart"    : { "src" : "heart.png" },
+    "amsat"    : { "src" : "amateurradio.png" },
+    "iridium" : { "src" : "iridium.png" },
+    "fblogin"  : { "src" : "fblogin.png" },
+    "fbicon"   : { "src" : "fbicon.png" },
+    "sjpicon"  : { "src" : "star3map_icon.png" },			
+    "flyover"  : { "src" : "flyover.png" }
+
+  },
+  "buttons" : {
+    "nightmode" : { "type" : "toggle", "tex" : "nightmode", "var" : "app_nightViewing" },
+    "compass"   : { "type" : "toggle", "tex" : "compass", "var" : "app_useCompass" },
+    "viewmode"  : { "type" : "sequence", "items" : [
+                     { "tex" : "viewstars", "cmd" : "setAppMode viewStars" },
+                     { "tex" : "viewglobe", "cmd" : "setAppMode viewGlobe" }
+                   ] },
+    "changelocation" :
+                  { "type" : "toggle", "tex" : "arrows", "var" : "app_changeLocation" },
+    "gps"       : { "type" : "toggle", "tex" : "gps", "var" : "app_useCoreLocation" },
+    "showsats"  : { "type" : "toggle", "tex" : "sat", "var" : "app_showSatellites" },
+    "showqr"    : { "type" : "toggle", "tex" : "qricon", "var" : "app_showQR" },
+    "satlist"   : { "type" : "sequence", "items" : [
+                     { "tex" : "brightest", "cmd" : "chooseBrightestSatellites" },
+                     { "tex" : "heart",     "cmd" : "chooseFavoriteSatellites" },
+                     { "tex" : "amsat",     "cmd" : "chooseAmateurRadioSatellites" },
+                     { "tex" : "iridium",  "cmd" : "chooseIridiumSatellites" }
+                   ] }
+  }
+}
